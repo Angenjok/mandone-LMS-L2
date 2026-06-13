@@ -9,6 +9,7 @@ include 'db.php';
 <html>
 <head>
     <title>Interface Enseignant</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <h2>Ajouter un nouveau cours</h2>
