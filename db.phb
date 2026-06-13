@@ -1,0 +1,15 @@
+<?php
+// Configuration de la connexion
+$host = 'localhost';
+$db   = 'lms_db';
+$user = 'root';
+$pass = '';
+
+// Connexion
+$conn = new mysqli($host, $user, $pass, $db);
+
+// Vérification de la connexion
+if ($conn->connect_error) {
+    die("Erreur de connexion : " . $conn->connect_error);
+}
+?>
