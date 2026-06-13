@@ -7,6 +7,7 @@ $conn = new mysqli('localhost', 'root', '', 'lms_db');
 <html>
 <head>
     <title>LMS Connexion</title>
+    <link rel="stylesheet" href="style.css">
     <style>
         body { font-family: sans-serif; display: flex; justify-content: center; padding-top: 50px; }
         form { border: 1px solid #ccc; padding: 20px; border-radius: 8px; }
