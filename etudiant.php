@@ -11,6 +11,7 @@ if ($_SESSION['role'] !== 'etudiant') {
 <html>
 <head>
     <title>Espace Étudiant</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <h2>Liste des cours disponibles</h2>
